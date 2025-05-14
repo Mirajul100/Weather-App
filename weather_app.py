@@ -15,7 +15,7 @@ select = st.selectbox("Select data to view"
 
 st.subheader(f"{select} for the next {slider} days in {input}")
 
-dates = ["2022-24-10" , "2022-25-2=10" , "2022-26-10"]
+dates = ["2022-24-10" , "2022-25-2" , "2022-26-10"]
 temperature = [10 , 30 , 40]
 
 figure = px.line(x=dates , y=temperature , labels={"x":"Dates" , "y":"Temperature (C)"})
