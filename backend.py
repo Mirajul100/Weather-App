@@ -1,4 +1,5 @@
 import requests as rs
+import os
 
 API_KEY = "4c7bf6244cbea1624ce0b61c9a89f1e3"
 
