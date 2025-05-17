@@ -1,7 +1,7 @@
 import requests as rs
 import os
 
-API_KEY = "4c7bf6244cbea1624ce0b61c9a89f1e3"
+API_KEY = os.getenv("API")
 
 def get_data(city_name , days=None):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}"
